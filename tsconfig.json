@@ -1,0 +1,24 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "target": "ESNext",
+      "noImplicitAny": true,
+      "sourceMap": false,
+      "importHelpers": true,
+      "inlineSourceMap": true,
+      "inlineSources": true,
+      "baseUrl": ".",
+      "skipLibCheck": true,
+      "sourceRoot": ".",
+      "noUnusedLocals": true,
+      "noUnusedParameters": true
+  },
+  "exclude": [
+    "node_modules",
+    "blueprints/*/files/**",
+    "tmp",
+    "dist"
+  ]
+}
